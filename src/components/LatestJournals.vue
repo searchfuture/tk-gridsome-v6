@@ -7,7 +7,7 @@
       <div v-for="item in journals" :key="item.node.id">
         <b-card
           :title="item.node.title"
-          :img-src="$URL+item.node.thumbnail.src" 
+          :img-src="item.node.thumbnail.src" 
           img-alt="Image"
           img-top
           :bg-variant="item.node.bgcolor"

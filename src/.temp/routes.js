@@ -16,11 +16,11 @@ export default [
     component: () => import(/* webpackChunkName: "page--src-templates-blog-post-vue" */ "C:\\Users\\Administrator\\Desktop\\tk-gridsome-v6\\src\\templates\\BlogPost.vue")
   },
   {
-    path: "/blog/blogcover1/",
+    path: "/blog/blogcover3/",
     component: () => import(/* webpackChunkName: "page--src-templates-blog-post-vue" */ "C:\\Users\\Administrator\\Desktop\\tk-gridsome-v6\\src\\templates\\BlogPost.vue")
   },
   {
-    path: "/blog/blogcover3/",
+    path: "/blog/blogcover1/",
     component: () => import(/* webpackChunkName: "page--src-templates-blog-post-vue" */ "C:\\Users\\Administrator\\Desktop\\tk-gridsome-v6\\src\\templates\\BlogPost.vue")
   },
   {

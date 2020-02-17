@@ -6,7 +6,7 @@
           <div v-if="edges.node.image !== null">
             <b-card
               :title="edges.node.title"
-              :img-src="$URL+edges.node.image.src"
+              :img-src="edges.node.image.src"
               img-alt="Image"
               img-top
             >

@@ -18,7 +18,7 @@
       :key="item.node.id"
       :caption="item.node.title"
       :text="item.node.content"
-      :img-src="$URL+item.node.thumbnail.src"
+      :img-src="item.node.thumbnail.src"
       img-alt="Name image"
     ></b-carousel-slide>
 

@@ -19,7 +19,7 @@
       <b-card v-for="item in projects" :key="item.node.id" >
         <b-row no-gutters align-v="center" >
           <b-col  class="col-img">
-            <b-img   center :src="$URL+item.node.thumbnail.src" class="img-content"></b-img>
+            <b-img   center :src="item.node.thumbnail.src" class="img-content"></b-img>
           </b-col>
           <b-col>
             <b-card-body :title="item.node.title">

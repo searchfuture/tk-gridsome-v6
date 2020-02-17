@@ -4,7 +4,7 @@
       <b-card
         v-for="item in bblogs" :key="item.node.id"
         :title="item.node.title"
-        :img-src="$URL+item.node.thumbnail.src" 
+        :img-src="item.node.thumbnail.src" 
         img-alt="Image"
         img-top
         :bg-variant="item.node.bgcolor"

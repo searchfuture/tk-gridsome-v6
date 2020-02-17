@@ -9,5 +9,5 @@ export default function (Vue, { router, head, isClient }) {
   Vue.use(BootstrapVue)
   Vue.component('Layout', DefaultLayout)
   Vue.mixin(checkIfMobile)
-  Vue.prototype.$URL = 'http://localhost:80'
+  // Vue.prototype.$URL = 'http://localhost:80'
 }
