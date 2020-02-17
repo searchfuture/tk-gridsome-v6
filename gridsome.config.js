@@ -4,7 +4,7 @@ module.exports = {
   siteName: 'Thinkable Kids',
   siteDescription: 'The web page of Thinkable Kits .',
   siteUrl: 'https://searchfuture.github.io',
-  pathPrefix: '/tk-gridsome-v6',
+  // pathPrefix: '/tk-gridsome-v6',
   // pathPrefix:'dist',
   plugins: [
     {
